@@ -1,0 +1,34 @@
+.deck {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.card {
+    background-color: beige;
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    height: auto;
+    width: 1%;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 120px;
+    background: url(../Images/digital_camera_photo-1080x675.jpg);
+    background-image: 50% 50%;
+    background-size: cover;
+}
